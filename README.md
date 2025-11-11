@@ -6,7 +6,7 @@ An AI-powered historical event explorer that allows users to explore historical 
 
 ## Description
 
-Timeline Lens offers a unique, multi-faceted way to engage with history. It combines a traditional data-driven dashboard and library with an innovative, immersive 3D visualization. Leveraging the power of the Google Gemini API, it simplifies content creation by automatically generating summaries for new historical events.
+Timeline Lens offers a unique, multi-faceted way to engage with history. It combines a traditional data-driven dashboard and library with an innovative, immersive 3D visualization.It simplifies History Education by automatically generating summaries for new historical events.
 
 ## Features
 
