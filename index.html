@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timeline Lens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-gold': '#c09a6b',
+              'brand-red': '#8a3b3b',
+              'brand-parchment-dark': '#2a2622',
+              'brand-parchment-light': '#3c362f',
+              'brand-text-primary': '#e0d8c7',
+              'brand-text-secondary': '#a09482',
+            },
+            fontFamily: {
+              'serif': ['"Playfair Display"', 'serif'],
+              'sans': ['"Lora"', 'sans-serif'],
+            },
+            boxShadow: {
+              'lg': '5px 5px 15px rgba(0,0,0,0.5)',
+            }
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-dom": "https://aistudiocdn.com/react-dom@^19.2.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "three/": "https://aistudiocdn.com/three@^0.181.1/",
+    "three": "https://aistudiocdn.com/three@^0.181.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0"
+  }
+}
+</script>
+<style>
+    body {
+        font-family: 'Lora', serif;
+    }
+    h1, h2, h3, h4, h5, h6, .font-serif {
+        font-family: 'Playfair Display', serif;
+    }
+    .rustic-bg {
+        background-color: #1e1b18;
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="%232a2622" fill-opacity="0.4"%3E%3Cpath opacity=".5" d="M96 95h4v1h-4v-1ZM4 95h4v1H4v-1ZM96 5h4v1h-4V5ZM4 5h4v1H4V5ZM0 96h1v4H0v-4Zm0-92h1v4H0V4Zm100 92h1v4h-1v-4Zm0-92h1v4h-1V4ZM95 0h1v4h-1V0ZM95 100h1v4h-1v-4ZM5 0h1v4H5V0ZM5 100h1v4H5v-4ZM0 95h4v1H0v-1Zm0-90h4v1H0v-1Zm100 90h4v1h-4v-1Zm0-90h4v1h-4v-1Z"/%3E%3Cpath d="M6 6h2v2H6V6Zm88 0h2v2h-2V6Zm0 88h2v2h-2V94ZM6 94h2v2H6v-2Z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    }
+</style>
+</head>
+  <body class="rustic-bg text-brand-text-primary">
+    <div id="root"></div>
+  </body>
+</html>
